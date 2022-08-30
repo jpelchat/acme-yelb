@@ -57,7 +57,7 @@ spec:
   - port: 80
     protocol: TCP
     targetPort: 80
-    # nodePort: 32777 <- if not specified, the system will generate a nodePort value
+    nodePort: 32700
   selector:
     app: yelb-ui
     tier: frontend
